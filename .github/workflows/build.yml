@@ -23,6 +23,9 @@ jobs:
           path: ~\.sonar\cache
           key: ${{ runner.os }}-sonar
           restore-keys: ${{ runner.os }}-sonar
+      - name: Build with MSBuild
+        run: msbuild "C:\Users\tu\OneDrive\Desktop\New folder\PetStore\PetStore\PetStore\PetStore.sln"
+
       - name: Cache SonarQube scanner
         id: cache-sonar-scanner
         uses: actions/cache@v1
