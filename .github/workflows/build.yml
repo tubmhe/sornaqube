@@ -44,6 +44,6 @@ jobs:
       - name: Build and analyze
         shell: powershell
         run: |
-          .\.sonar\scanner\dotnet-sonarscanner begin /k:"Pet-Store" /d:sonar.token="sqp_458efc6f5b2ede599c8b30d56ce7d66ec69e45c2" /d:sonar.host.url="http://localhost:9000"
+          .\.sonar\scanner\dotnet-sonarscanner begin /k:"Pet-Store" /d:sonar.token="sqp_b9306bfa546296a6ab900c545f74de3dfa3577f9" /d:sonar.host.url="http://localhost:9000"
           dotnet build
           .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.token="sqp_458efc6f5b2ede599c8b30d56ce7d66ec69e45c2"
