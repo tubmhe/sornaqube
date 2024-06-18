@@ -1,6 +1,0 @@
-projectKey=Pet-Store
-serverUrl=https://0ec1-2405-4803-f4f0-94e0-d59e-23bd-76c7-8da6.ngrok-free.app
-serverVersion=10.5.1.90531
-dashboardUrl=https://0ec1-2405-4803-f4f0-94e0-d59e-23bd-76c7-8da6.ngrok-free.app/dashboard?id=Pet-Store
-ceTaskId=08e079a9-110f-4b40-b360-96b9080249fc
-ceTaskUrl=https://0ec1-2405-4803-f4f0-94e0-d59e-23bd-76c7-8da6.ngrok-free.app/api/ce/task?id=08e079a9-110f-4b40-b360-96b9080249fc
